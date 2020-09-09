@@ -1,0 +1,84 @@
+body{
+    background: url(imagenes/fondo.png);
+}
+*{
+	box-sizing: border-box;
+}
+.est{
+    width: 70px;
+}
+.est1{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000000;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 20px;
+}
+.estlab{
+    margin: 20px;
+    margin-left: 0px;
+}
+.tabl1{
+    margin: 0 auto;
+    width: 100%;
+    border: 3px black solid;
+    
+    
+}
+h1{
+    text-align: center;
+    margin: 0px;
+}
+.inputres{
+    left: 70em;
+    width: 70px;
+}
+.productoclas{
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 180px;
+    text-align: center;
+}
+.div2c{
+    text-align: center;
+    font-size: large;
+}
+.sumarioNum{
+    font-size: x-large;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.div4c{
+    font-size: xx-large;
+    display: inline-block;
+}
+.td1{
+    border-left: black 3px solid;
+}
+.est1b{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000000;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+}

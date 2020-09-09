@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+    
+    <title>Contador</title>
+
+    <script src="jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="ver1.css">
+
+</head>
+<body>
+
+    <h1>Calcular el precio de</h1>
+    <br>
+    <form id="form1" name="form1" >
+        <div id="div2" class="div2c">
+            <input type="text" id="producto" class="productoclas" placeholder="Nombre del producto">
+            <input type="button" id="botonproducto" class="" value="Listo">
+        </div>
+
+        <br>
+    
+        <table id="tbl" class="tabl1">
+            <tr>
+                <td>
+                    <label for="inppro" class="estlab">Nombre del producto</label>
+                </td>
+                <td>
+                    <label for="inp" class="estlab">Precio del producto</label>
+                </td>
+                <td>
+                    <label for="medida" class="estlab">Escoje la Medida</label>
+                </td>
+                <td>
+                    <label for="inp1" class="estlab">Cantidad del producto</label>
+                </td>
+                <td>
+                    <label for="inp2" class="estlab">Cantidad que se uso</label>
+                </td>
+                <td>
+                    <label for="btn" class="estlab">Calcular Valor</label>
+                </td>
+                <td>
+                    <label for="inp3" class="estlab">Valor de la Cantidad que se uso</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- input producto -->
+                    <input type="text" id="inppro" class="">
+                </td>
+                <td>
+                    <input type="number" id="inp" class="est">
+                </td>
+                <td>
+                    <select name="medida" id="medida">
+                        <optgroup label="Solido">
+                        <option value="Kg">Kilo</option>
+                        <option value="Gr">Gramos</option>
+                    </optgroup>
+                    <optgroup label="Liquido">
+                        <option value="L">Litro</option>
+                        <option value="Ml">Mililitro</option>
+                    </optgroup>
+                </td>
+                <td>
+                    <input type="number" id="inp1" class="est">
+                </td>
+                <td>
+                    <input type="number" id="inp2" class="est" value="">
+                </td>
+                <td>
+                    <input type="button" id="btn" class="est1" value="Calcular">
+                </td>
+                <td>
+                    <input type="number" readonly="readonly" class="est" id="inp3">
+                </td>
+                <td rowspan="8" class="td1">
+                    <input type="button" id="btnen" class="est1b" value="Poner en la lista">
+                    <input type="button" id="limpiar" class="est1b" value="Limpiar">
+                    
+                </td>
+            </tr>
+        </table>
+    </form>
+        <br>
+        <form id="form2" name="form2">
+
+            <table id="tabl2" class="tabl2c">
+
+            </table>    
+        </form>
+
+    <div id="div3" class="sumario"></div>
+
+    <script src="scrip1.js"></script>
+</body>
+</html>
